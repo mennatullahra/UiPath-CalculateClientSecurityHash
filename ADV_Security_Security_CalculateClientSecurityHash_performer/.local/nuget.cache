@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ChBpN8GrVstNcVVQ4ZNRrPNx6DaETMG4ahj65kcrigpDLl1mp7eZ2cFdVf1uiKFdWVATRAq5ShQymNQxKRClzA==",
+  "dgSpecHash": "bpLplpvcswZPDREVcR6R7UUjBCc70rtXTxJCvkLueeKmzZZ/9mt7+fsyVfU3MO6N//7LYyi0JjADB6//7DypRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\Documents\\UiPath\\ADV_Security_Security_CalculateClientSecurityHash\\.local\\",
+  "projectFilePath": "C:\\Users\\Dell\\Documents\\UiPath\\ADV_Security_Security_CalculateClientSecurityHash_performer\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HAdi/P6je6eR72HsMh2YvJAbuGPkDnxM+qepOpdalpi6JvtMgJ3zatBRIuGFhjnPSpM9zBE8KSJowvcSriRHhw==",
+  "dgSpecHash": "zV3cak4RfmrTkX1IGTjkn/KUsl2vBw2x7A8kU7dUhO+6d8u/ceSEHEXQb8ng/PHBG4Iv9EGQ0lxKrOO9ohoTIQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\Documents\\UiPath\\ADV_Security_Security_CalculateClientSecurityHash_per\\.local\\",
+  "projectFilePath": "C:\\Users\\Dell\\Documents\\UiPath\\ADV_Security_Security_CalculateClientSecurityHash_dispatcher\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\azure.core\\1.18.0\\azure.core.1.18.0.nupkg.sha512",

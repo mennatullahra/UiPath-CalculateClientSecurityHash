@@ -21007,9 +21007,9 @@
     "restore": {
       "projectUniqueName": "ADV_Security_Security_CalculateClientSecurityHash",
       "projectName": "ADV_Security_Security_CalculateClientSecurityHash",
-      "projectPath": "C:\\Users\\Dell\\Documents\\UiPath\\ADV_Security_Security_CalculateClientSecurityHash_per\\.local",
+      "projectPath": "C:\\Users\\Dell\\Documents\\UiPath\\ADV_Security_Security_CalculateClientSecurityHash_dispatcher\\.local",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\Documents\\UiPath\\ADV_Security_Security_CalculateClientSecurityHash_per\\.local"
+      "outputPath": "C:\\Users\\Dell\\Documents\\UiPath\\ADV_Security_Security_CalculateClientSecurityHash_dispatcher\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {

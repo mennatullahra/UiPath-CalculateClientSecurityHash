@@ -7,7 +7,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>912,6112</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>912,6133</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Initialization_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -94,7 +94,7 @@
       <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Open applications used in the process and do necessary initialization procedures (e.g., login)." DisplayName="Initialize All Applications" sap:VirtualizedContainerService.HintSize="922,6069" sap2010:WorkflowViewState.IdRef="Sequence_9">
+  <Sequence sap2010:Annotation.AnnotationText="Open applications used in the process and do necessary initialization procedures (e.g., login)." DisplayName="Initialize All Applications" sap:VirtualizedContainerService.HintSize="922,6068" sap2010:WorkflowViewState.IdRef="Sequence_9">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -137,13 +137,13 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:OpenBrowser>
-    <ui:BrowserScope Browser="{x:Null}" BrowserType="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" DisplayName="Attach Browser" sap:VirtualizedContainerService.HintSize="860,5298" sap2010:WorkflowViewState.IdRef="BrowserScope_1" Selector="&lt;html app='chrome.exe' title='ACME System 1 - *' /&gt;">
+    <ui:BrowserScope Browser="{x:Null}" BrowserType="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" DisplayName="Attach Browser" sap:VirtualizedContainerService.HintSize="860,5297" sap2010:WorkflowViewState.IdRef="BrowserScope_1" Selector="&lt;html app='chrome.exe' title='ACME System 1 - *' /&gt;">
       <ui:BrowserScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
           </ActivityAction.Argument>
-          <Sequence sap2010:Annotation.AnnotationText="in this sequence the robot will :&#xA;2- Check if the user is currently logged in.&#xA;3- If not logged in, proceed to log in using the provided credentials,&#xA;     If already logged in, log out and then log in using the provided credentials." DisplayName="Do" sap:VirtualizedContainerService.HintSize="826,5189" sap2010:WorkflowViewState.IdRef="Sequence_27">
+          <Sequence sap2010:Annotation.AnnotationText="in this sequence the robot will :&#xA;2- Check if the user is currently logged in.&#xA;3- If not logged in, proceed to log in using the provided credentials,&#xA;     If already logged in, log out and then log in using the provided credentials." DisplayName="Do" sap:VirtualizedContainerService.HintSize="826,5188" sap2010:WorkflowViewState.IdRef="Sequence_27">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -151,9 +151,9 @@
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="764,5006" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="764,5005" sap2010:WorkflowViewState.IdRef="TryCatch_1">
               <TryCatch.Try>
-                <Sequence sap2010:Annotation.AnnotationText="Precondition: Check and store a boolean variable based on the logout/login button state.&#xA;&#xA;Action: If the boolean is true (user logged in):&#xA;                     Log out the user.&#xA;                     Log in using provided credentials.&#xA;              If the boolean is false (user logged out):&#xA;                     Log in using provided credentials.&#xA;&#xA;Postcondition: Confirm the &quot;Welcome, (user-email)&quot; header displays the expected user-email." DisplayName="Sequence - try catch states (pre - action - post) " sap:VirtualizedContainerService.HintSize="726,4778" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                <Sequence sap2010:Annotation.AnnotationText="Precondition: Check and store a boolean variable based on the logout/login button state.&#xA;&#xA;Action: If the boolean is true (user logged in):&#xA;                     Log out the user.&#xA;                     Log in using provided credentials.&#xA;              If the boolean is false (user logged out):&#xA;                     Log in using provided credentials.&#xA;&#xA;Postcondition: Confirm the &quot;Welcome, (user-email)&quot; header displays the expected user-email." DisplayName="Sequence - try catch states (pre - action - post) " sap:VirtualizedContainerService.HintSize="726,4777" sap2010:WorkflowViewState.IdRef="Sequence_11">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:Boolean" Name="bool_loggedin" />
                     <Variable x:TypeArguments="x:String" Name="str_loggedin" />
@@ -166,7 +166,7 @@
                       <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Sequence DisplayName="pre" sap:VirtualizedContainerService.HintSize="664,1413" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                  <Sequence DisplayName="pre" sap:VirtualizedContainerService.HintSize="664,1412" sap2010:WorkflowViewState.IdRef="Sequence_12">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:Boolean" Name="bool_exists" />
                     </Sequence.Variables>
@@ -203,7 +203,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:UiElementExists>
-                    <If Condition="[bool_exists]" sap:VirtualizedContainerService.HintSize="510,900" sap2010:WorkflowViewState.IdRef="If_1">
+                    <If Condition="[bool_exists]" sap:VirtualizedContainerService.HintSize="510,899" sap2010:WorkflowViewState.IdRef="If_1">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -211,7 +211,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                       <If.Then>
-                        <Sequence sap:VirtualizedContainerService.HintSize="476,359" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                        <Sequence sap:VirtualizedContainerService.HintSize="476,358" sap2010:WorkflowViewState.IdRef="Sequence_15">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -238,7 +238,7 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </ui:GetValue>
-                          <Assign sap2010:Annotation.AnnotationText="boolean variable &quot;bool_loggedIn&quot; accordingly (true if a user is logged in; false if not)." DisplayName="Assign bool" sap:VirtualizedContainerService.HintSize="434,124" sap2010:WorkflowViewState.IdRef="Assign_1">
+                          <Assign sap2010:Annotation.AnnotationText="boolean variable &quot;bool_loggedIn&quot; accordingly (true if a user is logged in; false if not)." DisplayName="Assign bool" sap:VirtualizedContainerService.HintSize="434,123" sap2010:WorkflowViewState.IdRef="Assign_1">
                             <Assign.To>
                               <OutArgument x:TypeArguments="x:Boolean">[bool_loggedin]</OutArgument>
                             </Assign.To>
@@ -285,7 +285,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:LogMessage>
-                    <If sap2010:Annotation.AnnotationText="if user logged in, is he the correct user? do not do anything.&#xD;&#xA;                               if not log out and then log in with the correct credentials." Condition="[bool_loggedin]" sap:VirtualizedContainerService.HintSize="602,1898" sap2010:WorkflowViewState.IdRef="If_2">
+                    <If sap2010:Annotation.AnnotationText="if user logged in, is he the correct user? do not do anything.&#xA;                               if not log out and then log in with the correct credentials." Condition="[bool_loggedin]" sap:VirtualizedContainerService.HintSize="602,1898" sap2010:WorkflowViewState.IdRef="If_2">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
@@ -761,10 +761,7 @@
                     </sap:WorkflowViewStateService.ViewState>
                     <ui:UiElementExists DisplayName="Element Exists" Exists="[bool_exists]" sap:VirtualizedContainerService.HintSize="410,87" sap2010:WorkflowViewState.IdRef="UiElementExists_3">
                       <ui:UiElementExists.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="719a426e-d573-4f61-a72e-0d7780769657" Selector="&lt;webctrl tag='STRONG' aaname='These credentials do not match our records.' /&gt;">
-                          <ui:Target.TimeoutMS>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:Target.TimeoutMS>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="719a426e-d573-4f61-a72e-0d7780769657" Selector="&lt;webctrl tag='STRONG' aaname='These credentials do not match our records.' /&gt;" TimeoutMS="1000">
                           <ui:Target.WaitForReady>
                             <InArgument x:TypeArguments="ui:WaitForReady" />
                           </ui:Target.WaitForReady>

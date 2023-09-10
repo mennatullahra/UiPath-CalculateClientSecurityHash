@@ -5,7 +5,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>674,4071</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>624,3821</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>importing_data_table_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -107,7 +107,7 @@
       <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="The Workflow begins by importing data into a data table, which involves filtering the data based on its type. As a precondition, the data table is printed to a workbook, allowing for a verification of the values before proceeding with the bulk operation.&#xA;The main action involves performing a bulk operation to enqueue the data in the orchestrator. The postcondition requires verifying that all the data has been successfully enqueued to the queue." DisplayName="importing_data_table" sap:VirtualizedContainerService.HintSize="634,4006" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="The Workflow begins by importing data into a data table, which involves filtering the data based on its type. As a precondition, the data table is printed to a workbook, allowing for a verification of the values before proceeding with the bulk operation.&#xA;The main action involves performing a bulk operation to enqueue the data in the orchestrator. The postcondition requires verifying that all the data has been successfully enqueued to the queue." DisplayName="importing_data_table" sap:VirtualizedContainerService.HintSize="634,3756" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="out_queueItem_1_result" />
     </Sequence.Variables>
@@ -125,16 +125,16 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:LogMessage>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="572,3008" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="572,2758" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
-        <Sequence sap:VirtualizedContainerService.HintSize="534,2905" sap2010:WorkflowViewState.IdRef="Sequence_4">
+        <Sequence sap:VirtualizedContainerService.HintSize="534,2530" sap2010:WorkflowViewState.IdRef="Sequence_4">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[in_ExtractDataTable]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="472,88" sap2010:WorkflowViewState.IdRef="ReadRange_2" SheetName="Data" WorkbookPath="C:\Users\Dell\Documents\UiPath\ADV_Security_Security_CalculateClientSecurityHash_per\Data\Input\orders_data_table.xlsx" />
-          <Sequence sap2010:Annotation.AnnotationText="The sequence begins by importing data into a data table, which involves filtering the data based on its type. &#xA;the data table is printed to a workbook, allowing for a verification of the values before proceeding with the bulk operation." DisplayName="pre" sap:VirtualizedContainerService.HintSize="472,834" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[in_ExtractDataTable]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="472,88" sap2010:WorkflowViewState.IdRef="ReadRange_2" SheetName="Data" WorkbookPath="Data\Input\orders_data_table.xlsx" />
+          <Sequence sap2010:Annotation.AnnotationText="The sequence begins by importing data into a data table, which involves filtering the data based on its type. &#xA;the data table is printed to a workbook, allowing for a verification of the values before proceeding with the bulk operation." DisplayName="pre" sap:VirtualizedContainerService.HintSize="472,709" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -142,7 +142,6 @@
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="388,85" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[in_ExtractDataTable.Rows.Count.ToString]" />
             <ui:FilterDataTable DataTable="[in_ExtractDataTable]" DisplayName="Filter Data Table based on type" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="388,161" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[in_ExtractDataTable]" SelectColumnsMode="Remove">
               <ui:FilterDataTable.Filters>
                 <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
@@ -193,7 +192,7 @@
               </sap:WorkflowViewStateService.ViewState>
             </ui:LogMessage>
           </Sequence>
-          <Sequence sap2010:Annotation.AnnotationText="The main action involves performing a bulk operation to enqueue the data in the orchestrator. " DisplayName="action" sap:VirtualizedContainerService.HintSize="472,959" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence sap2010:Annotation.AnnotationText="The main action involves performing a bulk operation to enqueue the data in the orchestrator. " DisplayName="action" sap:VirtualizedContainerService.HintSize="472,709" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -202,9 +201,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,141" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;start bulking&quot;]" />
-            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="388,85" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[in_ExtractDataTable.Rows.Count.ToString]" />
             <ui:BulkAddQueueItems TimeoutMS="{x:Null}" CommitType="ProcessAllIndependently" ContinueOnError="True" DisplayName="Bulk Add Queue Items" FolderPath="mennarashedae@outlook.com's workspace" sap:VirtualizedContainerService.HintSize="388,194" sap2010:WorkflowViewState.IdRef="BulkAddQueueItems_1" QueueItemsDataTable="[in_ExtractDataTable]" QueueName="ACME_Queue" Result="[out_queueItem_1_result]" />
-            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="388,85" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[out_queueItem_1_result]" />
             <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,141" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;end bulking&quot;]" />
           </Sequence>
           <Sequence sap2010:Annotation.AnnotationText="The postcondition requires verifying that all the data has been successfully enqueued to the queue." DisplayName="post" sap:VirtualizedContainerService.HintSize="472,793" sap2010:WorkflowViewState.IdRef="Sequence_2">
